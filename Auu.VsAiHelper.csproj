@@ -13,7 +13,7 @@
     <ProjectGuid>{44C95CBA-6FA2-47FC-8AD6-BF219A5FC6C9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VsAiHelper</RootNamespace>
+    <RootNamespace>Auu.VsAiHelper</RootNamespace>
     <AssemblyName>VsAiHelper</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <GeneratePkgDefFile>true</GeneratePkgDefFile>
@@ -56,7 +56,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <VSCTCompile Include="VsAiHelper.vsct">
+    <VSCTCompile Include="Auu.VsAiHelper.vsct">
       <ResourceName>Menus.ctmenu</ResourceName>
     </VSCTCompile>
     <Content Include=".gitignore" />
