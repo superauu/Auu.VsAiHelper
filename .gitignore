@@ -1,0 +1,22 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+
+# Build output
+bin/
+obj/
+
+# NuGet packages
+packages/
+
+# Roslyn
+*.ruleset
+
+# Others
+*.vsix
+*.vsixmanifest
+*.pkgdef
+*.pdb
+*.cache
+*.log

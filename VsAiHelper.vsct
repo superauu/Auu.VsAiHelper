@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+
+  <Commands package="guidVsAiHelperPackage">
+    <Groups>
+      <Group guid="guidVsAiHelperPackageCmdSet" id="MyMenuGroup" priority="0x0600">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_CODEWIN"/>
+      </Group>
+    </Groups>
+
+    <Buttons>
+      <Button guid="guidVsAiHelperPackageCmdSet" id="CopyCodeContextInfoId" priority="0x0100" type="Button">
+        <Parent guid="guidVsAiHelperPackageCmdSet" id="MyMenuGroup" />
+        <Icon guid="guidImages" id="bmpPic1" />
+        <Strings>
+          <ButtonText>Copy Code Context Info</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+
+    <Bitmaps>
+      <Bitmap guid="guidImages" href="Resources\CopyIcon.png" usedList="bmpPic1"/>
+    </Bitmaps>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="guidVsAiHelperPackage" value="{192e7f73-ae61-48d8-ad87-de164d138ae2}" />
+
+    <GuidSymbol name="guidVsAiHelperPackageCmdSet" value="{f335c497-3340-4d3e-8128-1f13a72a7583}">
+      <IDSymbol name="MyMenuGroup" value="0x1020" />
+      <IDSymbol name="CopyCodeContextInfoId" value="0x0100" />
+    </GuidSymbol>
+    
+    <GuidSymbol name="guidImages" value="{0b699e9e-66c8-4359-b872-a38b18c5fafb}" >
+      <IDSymbol name="bmpPic1" value="1" />
+    </GuidSymbol>
+  </Symbols>
+
+</CommandTable>
