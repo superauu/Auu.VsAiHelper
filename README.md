@@ -13,14 +13,6 @@ A Visual Studio 2022 extension that allows you to quickly copy the context of a 
   - The containing method name (defaults to `UnknownMethod`).
   - The start and end line numbers of the selection.
 - Formats the information and copies it to the clipboard in one click.
-- Features a custom icon for easy identification in the context menu.
-
-## Installation
-
-1.  Go to the [Releases](https://github.com/your-username/your-repo/releases) page of this repository.
-2.  Download the latest `.vsix` file.
-3.  Close all instances of Visual Studio.
-4.  Double-click the downloaded `.vsix` file to install the extension.
 
 ## Usage
 
@@ -38,7 +30,8 @@ Method: Main
 Lines: 15 - 20
 ```
 
-*(Screenshot of the context menu item would go here)*
+<img width="356" height="180" alt="image" src="https://github.com/user-attachments/assets/2b6faa56-5e04-467e-bbed-ff143db7c1c2" />
+
 
 ## Building from Source
 
@@ -66,14 +59,6 @@ Lines: 15 - 20
   - 所在的方法名（如果未找到，则默认为 `UnknownMethod`）。
   - 选中范围的起始和结束行号。
 - 一键将格式化后的信息复制到剪贴板。
-- 菜单项带有自定义图标，方便快速识别。
-
-## 安装方法
-
-1.  访问本仓库的 [Releases](https://github.com/your-username/your-repo/releases) 页面。
-2.  下载最新的 `.vsix` 文件。
-3.  关闭所有正在运行的 Visual Studio 实例。
-4.  双击下载的 `.vsix` 文件，按照提示完成安装。
 
 ## 使用方法
 
@@ -91,7 +76,8 @@ Method: Main
 Lines: 15 - 20
 ```
 
-*(此处可以放一张显示右键菜单项的截图)*
+<img width="356" height="180" alt="image" src="https://github.com/user-attachments/assets/e51c7019-1167-4314-9e76-feb0445d1908" />
+
 
 ## 从源码构建
 
